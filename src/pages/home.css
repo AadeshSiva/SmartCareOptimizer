@@ -1,0 +1,235 @@
+.home-main {
+    padding: 1em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-head {
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 10px;
+    font-family: 'poppins';
+    display: flex;
+    /* gap: 2em; */
+    margin: 0 0.5em;
+    outline: 1px solid #a31fbd;
+}
+
+.head-p {
+    padding: 0.7em 1em;
+    /* background: linear-gradient(to top right, #7700ff7d, rgb(247, 215, 255)); */
+    /* background: #f5c5ff; */
+    font-weight: 500;
+    color: rgb(68, 0, 79);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.head-icon {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: 1em;
+    cursor: pointer;
+    color: rgb(68, 0, 79);
+}
+
+.home-back {
+    display: grid;
+    place-items: center;
+    padding-left: 1em;
+    color: #8600a1;
+    cursor: pointer;
+}
+
+.home-bottom {
+    padding: 1em 0.5em;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
+
+.home-input-con {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.7px);
+    -webkit-backdrop-filter: blur(12.7px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    outline: 1px solid #a31fbd;
+}
+
+.home-title {
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+
+}
+
+.home-label {
+    margin-top: 1em;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #8600a1;
+}
+
+.home-input {
+    padding: 0.7em 1em;
+    outline: none;
+    border: none;
+    font-family: 'poppins';
+    border-radius: 5px;
+    width: 500px;
+    font-size: medium;
+    margin-top: 0.3em;
+    transition-duration: 0.4s;
+    outline: 1px solid #a31fbd;
+}
+
+.home-next {
+    padding: 1em;
+    background: #a31fbd;
+    margin-top: 2em;
+    color: white;
+    font-family: 'poppins';
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.home-next:hover {
+    background-color: #e96aff;
+    color: #000000;
+
+}
+
+.home-show {
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.7px);
+    -webkit-backdrop-filter: blur(12.7px);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 1.5em;
+    gap: 1em;
+    outline: 1px solid #a31fbd;
+}
+
+.home-nothing {
+    height: 100%;
+    width: 100%;
+    color: #8600a189;
+    display: grid;
+    place-items: center;
+}
+
+.show-card {
+    padding: 1em;
+    /* width: calc(100% /3.2); */
+    background-color: white;
+    height: 210px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    outline: 1px solid #a31fbd;
+    position: relative;
+}
+
+.card-decor {
+    padding: 0.7em;
+    border-radius: 100px;
+    background: linear-gradient(to top left, #a31fbd, black);
+    display: grid;
+    place-items: center;
+    color: rgb(255, 255, 255);
+    flex-grow: 0;
+    margin-bottom: auto;
+
+}
+
+.card-time {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    font-size: small;
+    gap: 0.2em;
+    background: #f6b8ff;
+    padding: 0.2em 0.5em;
+    border-radius: 7px;
+}
+
+.card-name {
+    font-family: 'poppins';
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5em;
+    line-height: 1em;
+}
+
+.card-txt {
+    font-family: 'poppins';
+    color: #676767;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.card-des {
+    font-size: 0.7em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-btn {
+    padding: 0.5em;
+    background-color: #a31fbd;
+    border-radius: 5px;
+    margin-top: 0.3em;
+    font-family: 'poppins';
+    color: white;
+    text-align: center;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: #d67de8;
+    color: #32043b;
+
+}
+
+.home-proceed {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    padding: 0.7em 1.5em;
+    border-radius: 7px;
+    background-color: #a31fbd;
+    font-family: 'poppins';
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.home-proceed:hover {
+    background-color: #d67de8;
+    color: #32043b;
+
+}
